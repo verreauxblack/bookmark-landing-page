@@ -4,16 +4,17 @@ import './styles/main.css';
 
 import NavBar from './components/navigation';
 import Section1 from './components/section1';
+import Section2 from './components/section2';
 
 // import Button from './components/reusable/button'
 
 function App() {
   return (
-    <div>
-      <NavBar />
-      <Section1 />
-      {/* <Button label="submit the form" text="" bg="softBlue"/> */}
-    </div>
+    <>
+    <NavBar />
+    <Section1 />
+    <Section2 /> 
+    </>
   );
 }
 

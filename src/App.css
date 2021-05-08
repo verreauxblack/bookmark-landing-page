@@ -8,13 +8,22 @@
 .blueBG{
   border-bottom-left-radius: 200px;
 }
+.blueBGSection2{
+  border-bottom-right-radius: 100px;
+}
 
 @media  (max-width: 460px) {
   .blueBG{
     border-bottom-left-radius: 100px;
   }
+  .blueBGSection2{
+    border-bottom-right-radius: 100px;
+  }
 }
 @media (min-width:461px) and (max-width: 890px) {
+  .blueBGSection2{
+    border-bottom-right-radius: 150px;
+  }
   .blueBG{
     border-bottom-left-radius: 150px;
   }
