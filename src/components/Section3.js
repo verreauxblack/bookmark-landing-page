@@ -4,7 +4,7 @@ import Card from './reusable/Card'
 
 function Section3() {
     return (
-        <section class="relative flex flex-wrap flex-col items-center justify-between px-0  md:px-24 py-10 h-full">
+        <section class="relative flex flex-wrap flex-col items-center justify-between px-0  md:px-24 py-10 h-full mb-20">
             <div class=" max-w-lg  flex flex-col justify-center items-center text-center ">
                 <h2 class="font-medium text-xl lg:text-3xl leading-tight">Download the extension</h2>
                 <p class="text-grayishBlue opacity-60 px-5 lg:px-0 py-5">We’ve got more browsers in the pipeline. Please do let us know if you’ve 
