@@ -12,12 +12,19 @@
   border-bottom-right-radius: 100px;
 }
 
+.already{
+  letter-spacing: .4rem;
+}
+
 @media  (max-width: 460px) {
   .blueBG{
     border-bottom-left-radius: 100px;
   }
   .blueBGSection2{
     border-bottom-right-radius: 100px;
+  }
+  .already{
+    letter-spacing: .2rem;
   }
 }
 @media (min-width:461px) and (max-width: 890px) {
