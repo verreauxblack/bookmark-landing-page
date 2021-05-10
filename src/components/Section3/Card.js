@@ -1,6 +1,6 @@
 import React from 'react'
 
-import Button from './button';
+import Button from '../reusable/button';
 
 import Chrome from '../../images/logo-chrome.svg';
 import Firefox from '../../images/logo-firefox.svg';
