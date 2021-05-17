@@ -1,6 +1,9 @@
+/* eslint-disable jsx-a11y/alt-text */
 /* eslint-disable jsx-a11y/anchor-has-content */
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react';
+
+import logo from '../images/logo-bookmark.svg'
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars, faTimes } from '@fortawesome/free-solid-svg-icons'
@@ -19,8 +22,7 @@ function Navbar({ fixed }) {
                         (navbarOpen ? "bg-veryDarkBlue text-white" : "white")}>
                 <div class="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start">
                     <a  class="text-l font-bold leading-relaxed inline-block mr-4 py-2 whitespace-nowrap uppercase" href= "#">
-                        {/* <i class="bg-blue w-2 h-2 py-4"><FontAwesomeIcon icon={faBookmark} mask={['far', 'circle']} /></i> */}
-                        bookmark
+                        <img src={logo}/>
                     </a>
                     <button
                         class={"text-black cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none " +

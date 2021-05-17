@@ -14,7 +14,30 @@
 
 .already{
   letter-spacing: .4rem;
+
 }
+
+
+#subscribe > div > input[type="email"]:invalid {
+  background: url(./images/icon-error.svg);
+  background-size: 15px;
+  background-repeat: no-repeat;
+  background-position: 210px 10px;
+  background-color: white;
+
+}
+
+#subscribe > div > input[type="email"]:invalid:not(:placeholder-shown){
+  border: 1px solid hsl(0, 94%, 66%);
+
+}
+#subscribe > div > input[type="email"]:invalid:not(:placeholder-shown) ~ .requirements{
+  position: absolute;
+  height: 65px;
+  padding: 0 30px 3px 10px;
+  /* top: -.5px; */
+}
+
 
 @media  (max-width: 460px) {
   .blueBG{
@@ -26,6 +49,15 @@
   .already{
     letter-spacing: .2rem;
   }
+  #subscribe > div >input[type="email"]:invalid {
+    background-position: 290px 12px;
+
+  }
+  #subscribe > div > input[type="email"]:invalid:not(:placeholder-shown) ~ .requirements{
+
+    height: 70px;
+
+  }
 }
 @media (min-width:461px) and (max-width: 890px) {
   .blueBGSection2{
@@ -34,4 +66,9 @@
   .blueBG{
     border-bottom-left-radius: 150px;
   }
+  #subscribe > div >input[type="email"]:invalid {
+    background-position: 290px 12px;
+
+  }
+  
 }

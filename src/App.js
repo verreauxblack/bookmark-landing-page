@@ -9,6 +9,7 @@ import Section3 from './components/Section3/Section3';
 import Subscribe from './components/Subscribe';
 import Footer from './components/Footer';
 import Faq from './components/Faq/Faq';
+import Attribute from './components/Attribute';
 
 // import Button from './components/reusable/button'
 
@@ -22,6 +23,7 @@ function App() {
     <Faq />
     <Subscribe />
     <Footer/>
+    <Attribute/>
     </>
   );
 }
